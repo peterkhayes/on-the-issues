@@ -1,0 +1,62 @@
+.content {
+  max-width: 1200px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  text-align: center;
+}
+
+.topics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 24px;
+}
+
+.topic {
+  font-size: 1.2em;
+}
+.selectedTopic {
+  font-weight: bold;
+  text-decoration: none;
+  cursor: default;
+}
+
+.columns {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+  border-top: 1px solid #eee;
+  overflow-y: auto;
+}
+
+.column {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 0;
+  min-width: 0px;
+}
+
+.column + .column {
+  border-left: 1px solid #eee;
+}
+
+.keywordMatch {
+  font-weight: bold;
+  background-color: inherit;
+  color: inherit;
+}
+
+.metadata {
+  font-size: 0.8em;
+  font-style: italic;
+  margin: 24px 40px;
+}
+
+.metadataItem + .metadataItem {
+  margin-top: 12px
+}
