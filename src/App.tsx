@@ -73,12 +73,18 @@ export default function App() {
             </em>
           </blockquote>
           As a result, the Chamber frequently expresses and advocates for
-          positions that many people would find abhorant.
+          positions that I find immoral.
         </p>
         <p>
-          For this project, I then selected a set of topics I held strong
-          opinions about. I surveyed some of my friends for their opinions on
-          these topics. I also scraped all blog articles available on{" "}
+          For this project, I selected a set of topics I had opinions about. I
+          surveyed some of my friends as well as my classmates at{" "}
+          <a href="https://sfpc.io/" target="_blank" rel="noreferrer">
+            SFPC
+          </a>{" "}
+          to see how they felt about these topics.
+        </p>
+        <p>
+          I also scraped all blog articles available on{" "}
           <a
             href="https://www.uschamber.com/topics"
             target="_blank"
@@ -86,10 +92,11 @@ export default function App() {
           >
             the "topics" section of the Chamber's website
           </a>
-          . The Chamber's views were extracted by processing the text of these
-          articles, and finding lines matching keywords associated with the
-          topics.
+          , in order to get their views. The Chamber's views were extracted by
+          processing the text of these articles, and finding lines matching
+          keywords associated with the topics.
         </p>
+        <p>I hope the juxtiposition of these opinions might be interesting.</p>
       </ReactModal>
     </div>
   );
