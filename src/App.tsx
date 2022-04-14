@@ -96,9 +96,7 @@ export default function App() {
           processing the text of these articles, and finding lines matching
           keywords associated with the topics.
         </p>
-        <p>
-          I thought the juxtaposition of these opinions might be interesting.
-        </p>
+        <p>Opinions in each column are presented in a random order.</p>
       </ReactModal>
     </div>
   );
