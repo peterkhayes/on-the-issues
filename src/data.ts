@@ -8,7 +8,7 @@ export const TOPIC_NAMES = {
   Climate: "Climate Change",
   COVID: "COVID-19",
   IP2022: "The 2022 International IP Index",
-  Joy: "Things that make you Happy or Proud ",
+  Joy: "Things That Make You Happy or Proud ",
 } as const;
 
 export type Topic = keyof typeof TOPIC_NAMES;

@@ -96,7 +96,9 @@ export default function App() {
           processing the text of these articles, and finding lines matching
           keywords associated with the topics.
         </p>
-        <p>I hope the juxtiposition of these opinions might be interesting.</p>
+        <p>
+          I thought the juxtaposition of these opinions might be interesting.
+        </p>
       </ReactModal>
     </div>
   );
