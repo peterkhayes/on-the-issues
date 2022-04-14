@@ -1,9 +1,10 @@
 .content {
-  max-width: 1200px;
+  max-width: 1024px;
   width: 100%;
   background-color: white;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .header {
@@ -15,15 +16,68 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin-bottom: 24px;
+  line-height: 2;
 }
 
 .topic {
   font-size: 1.2em;
 }
+
+.topic + .topic {
+  margin-left: 24px;
+}
+
 .selectedTopic {
   font-weight: bold;
   text-decoration: none;
   cursor: default;
+}
+
+
+.modalTrigger {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border: 1px solid black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.modalTrigger:hover {
+  background-color: #eee;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 600px;
+  height: 500px;
+  margin-left: -300px;
+  margin-top: -250px;
+  border: 1px solid #eee;
+  background: #fff;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
 }
 
 .columns {
