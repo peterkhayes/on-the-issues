@@ -2,11 +2,11 @@ export const TOPIC_NAMES = {
   Labor: "Workers' Rights and Power",
   Crime: "The Criminal Justice System",
   Birdwatching: "Birdwatching",
-  COVID: "COVID-19",
   Chilling: "Hanging Out, Watching TV, Chilling, etc",
   DIY: "DIY Projects, Being Crafty, etc",
   OSD: "The Monthly OSD Conference Call",
   Climate: "Climate Change",
+  COVID: "COVID-19",
   IP2022: "The 2022 International IP Index",
   Joy: "Things that make you Happy or Proud ",
 } as const;

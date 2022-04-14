@@ -1,5 +1,5 @@
 .content {
-  max-width: 1024px;
+  max-width: 1200px;
   width: 100%;
   background-color: white;
   display: flex;
@@ -16,15 +16,15 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin-bottom: 24px;
-  line-height: 2;
+  line-height: 2.5;
 }
 
 .topic {
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .topic + .topic {
-  margin-left: 24px;
+  margin-left: 12px;
 }
 
 .selectedTopic {
