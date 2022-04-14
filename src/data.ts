@@ -99,6 +99,7 @@ export const FRIEND_OPINIONS: AllOpinions = {
       `I have fond memories of this activity`,
       `It’s good but please, if you list one of your interests as “hanging out” and then wonder why you have no friends like ???? Say more!!! Give us something to go off of!!! I wish I could say I embrace radical anti productivity but honestly no I don’t, I am not a chiller and I have no qualms about that`,
       `Yes`,
+      "I used to not have a TV before the pandemic, but now I love TV. My favorite self-care activity is to get high, order food, and watch my programs.",
       `love hanging out, can't watch tv so much anymore unless i'm rewatching one of my favorite shows`,
       `I feel drawn to it, but I find it difficult to get right`,
     ],
