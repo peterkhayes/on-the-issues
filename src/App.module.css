@@ -5,6 +5,8 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  font-family: serif;
+  font-weight: 500;
 }
 
 .header {
@@ -17,6 +19,7 @@
   justify-content: space-evenly;
   margin-bottom: 24px;
   line-height: 2.5;
+  padding: 0 16px;
 }
 
 .topic {
